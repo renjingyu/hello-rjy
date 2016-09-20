@@ -1,0 +1,59 @@
+body,ul,li,p,h3{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font:14px/2.0 "微软雅黑";
+}
+h3{
+	font-weight: normal;
+}
+a{
+	color: #666;
+	text-decoration: none;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+.product li{
+	float: left;
+	width:300px;
+	height: 400px;
+	border: 1px solid #fff;
+	margin: 10px;
+	padding: 15px;
+	overflow: hidden;
+}
+.product a{
+	display: block;
+	width: 300px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.product a:hover{
+	color: red;
+}
+.product img{
+	display: block;
+	border: none;
+	width:300px;
+}
+.product li:hover{
+	border: 1px solid #eee;
+}
+.product .price{
+	font-size: 20px;
+	color: red;
+}
+.product .btn{
+	display: block;
+	padding: 6px 10px;
+	background: red;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}

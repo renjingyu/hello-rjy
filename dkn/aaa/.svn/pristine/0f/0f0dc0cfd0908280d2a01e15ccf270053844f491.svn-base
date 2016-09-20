@@ -1,0 +1,31 @@
+.head-top { height: 30px; line-height: 30px; background-color: #eee;border-bottom: 1px solid #ddd;}
+
+
+.nav-wrap { border-bottom: 2px solid #a26}
+/*全部商品分类*/
+.all-sort { width: 200px; position: relative; z-index: 2;}
+.all-sort .tit { font-size: 16px;line-height: 36px; background: #a26;text-align: center; color: #fff}
+.all-sort .sort-list { position: absolute; left:0; top: 38px; width: 100%; height: 380px; /*background-color: rgba(240,240,240,.9);*/ background: url("../images/e5-80.png") repeat; }
+
+.all-sort .item-link { display: block; background: url("../images/type_icon1.png") 0 0 no-repeat; padding-left: 65px;line-height: 50px;}
+.all-sort .item-link:hover {  background-image:url("../images/type_icon2.png")}
+.all-sort .item-link1 { background-position: 40px 20px}
+.all-sort .item-link2 { background-position: 40px -25px}
+.all-sort .item-link3 { background-position: 40px -65px}
+.all-sort .item-link4 { background-position: 40px -105px}
+.all-sort .item-link5 { background-position: 40px -150px}
+
+/*内部分类*/
+.all-sort .inner-sort { position: absolute; top: 0; left: 100%; width: 400px; height: 380px;background-color: #fff; display: none}
+.all-sort .item { margin: 10px 0}
+.all-sort .item:hover { background-color: #fff}
+.all-sort .item:hover .inner-sort {display: block }
+
+/*页面导航*/
+.nav {line-height: 30px; font-size: 14px; margin-left: 20px }
+.nav li { float: left; padding: 0 30px;}
+.nav .active { color: #a26; font-weight: bold}
+
+
+
+.add-cart { line-height: 30px; background-color: #ee5555; color: #fff; text-align: center; cursor: pointer}

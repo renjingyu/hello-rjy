@@ -1,0 +1,35 @@
+1、布局转换（保存图片的坐标）
+
+2、给每一个图片加拖拽的效果
+
+3、拖拽的时候，如果发生碰撞  ：碰撞检测
+
+	3、1：判断距离那个图最近 ：求图片之间的距离，求最小值
+	3、2：交换位置，move.js，需要知道原来的坐标，最小距离图片的坐标（下标）
+
+4、拖拽的时候，没有发生碰撞
+
+	回到原位 ：move.js，需要知道原来的坐标（下标）
+
+
+
+碰撞：
+
+left 
+
+obj.offsetLeft+obj.w < box.offsetLeft
+
+
+bottom
+
+obj.offsetTop>box.h+box.offsetTop
+
+
+right
+
+obj.offsetLeft>box.offsetLeft+box.w
+
+
+top
+
+obj.offsetTop+obj.h<box.offsetTop

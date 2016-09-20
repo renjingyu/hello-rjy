@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--公用的-->
+    <link href="images/music.ico" rel="shortcut icon" />
+    <link href="css/base.css" rel="stylesheet" />
+    <link href="css/public.css" rel="stylesheet" />
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/public.js"></script>
+
+    <!--私有的-->
+    <link href="css/index.css" rel="stylesheet" />
+    <script src="js/index.js"></script>
+</head>
+<body>
+<!--头部内容 public-->
+    <div class="head-top">
+        <div class="wid-1200 het30">
+            <div class="fr">
+                <a href="###">登录</a>
+                <a href="###">登录</a>
+                <a href="###">登录</a>
+                <a href="###">登录</a>
+
+            </div>
+        </div>
+    </div>
+
+<!-- nav-wrap-->
+    <div class="wid-1200 clear nav-wrap">
+
+        <!--全部商品分类-->
+        <div class="all-sort fl">
+            <p class="tit">全部商品分类</p>
+            <ul class="sort-list">
+                <li class="item ">
+                    <a class="item-link item-link1">个护美妆</a>
+                    <div class="inner-sort">
+                        <ul><li><a>个护美妆 商品分类1</a></li><li>个护美妆 商品分类1</li><li> 个护美妆 商品分类1</li></ul>
+                    </div>
+                </li>
+                <li class="item ">
+                    <a class="item-link item-link2">商品分类1</a>
+                    <div class="inner-sort">
+                        <ul><li>商品分类4</li><li>商品分类5</li><li>商品分类5</li></ul>
+                    </div>
+                </li>
+                <li class="item "><a class="item-link item-link3">商品分类1</a></li>
+                <li class="item "><a class="item-link item-link4">商品分类1</a></li>
+                <li class="item "><a class="item-link item-link5">商品分类1</a></li>
+            </ul>
+        </div>
+        <!--全部商品分类结束-->
+
+
+        <!--页面导航-->
+        <ul class="nav fl">
+            <li><a class="active">首页</a></li>
+            <li><a>直播</a></li>
+            <li><a>全球购</a></li>
+            <li><a>品牌馆</a></li>
+        </ul>
+        <!--页面导航结束-->
+    </div>
+<!--头部内容结束 public-->
+<!--banner-->
+<div class="banner-wrap" id="banner-wrap">
+    <ul class="banner-list" id="banner-list">
+        <li><a href="###"><img src="images/banner1.jpg"></a></li>
+        <li><a href="###"><img src="images/banner2.jpg"></a></li>
+        <li><a href="###"><img src="images/banner1.jpg"></a></li>
+        <li><a href="###"><img src="images/banner2.jpg"></a></li>
+    </ul>
+    <div class="banner-btn" id="banner-btn">
+        <ul >
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+</div>
+
+<!--banner结束-->
+
+
+<div class="main wid-1200 bg_e5">
+    <div class="section">
+        <ul class="sct-opt">
+            <li>分类4</li>
+            <li>分类3</li>
+            <li>分类2</li>
+            <li  class="active">分类1</li>
+        </ul>
+        <div class="ovfl">
+            <div class="ad-wrap">
+                <ul class="ad-list">
+                    <li><a><img src="images/banner1.jpg"></a></li>
+                    <li><a><img src="images/banner2.jpg"></a></li>
+                    <li><a><img src="images/banner1.jpg"></a></li>
+                    <li><a><img src="images/banner2.jpg"></a></li>
+                </ul>
+                <ul class="ad-btn">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <a href="javascript:;" class="ad-prev h-btn"><</a>
+                <a href="javascript:;" class="ad-next h-btn">></a>
+
+            </div>
+            <ul class="sct-list ">
+                <li>
+                    <a href="###"><img src="" alt=""></a>
+                    <div class="pad5">
+                        <p><a  href="###"></a></p>
+                        <p class="ovfl">
+                            <em class="fl font-b font14 price-color"></em>
+                            <span class="fr color99"></span>
+                        </p>
+                    </div>
+
+                </li>
+                <li>
+                    <a href="###"><img src="" alt=""></a>
+                    <div class="pad5">
+                        <p><a  href="###"></a></p>
+                        <p class="ovfl">
+                            <em class="fl font-b font14 price-color"></em>
+                            <span class="fr color99"></span>
+                        </p>
+                    </div>
+
+                </li>
+                <li>
+                    <a href="###"><img src="" alt=""></a>
+                    <div class="pad5">
+                        <p><a  href="###"></a></p>
+                        <p class="ovfl">
+                            <em class="fl font-b font14 price-color"></em>
+                            <span class="fr color99"></span>
+                        </p>
+                    </div>
+
+                </li>
+                <li>
+                    <a href="###"><img src="" alt=""></a>
+                    <div class="pad5">
+                        <p><a  href="###"></a></p>
+                        <p class="ovfl">
+                            <em class="fl font-b font14 price-color"></em>
+                            <span class="fr color99"></span>
+                        </p>
+                    </div>
+
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="section">
+        <div class="ad-wrap">
+            <ul class="ad-list">
+                <li>
+                    <a><img src="images/banner1.jpg"></a>
+
+                </li>
+                <li><a><img src="images/banner2.jpg"></a></li>
+                <li><a><img src="images/banner1.jpg"></a></li>
+                <li><a><img src="images/banner2.jpg"></a></li>
+            </ul>
+            <ul class="ad-btn">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <a href="javascript:;" class="ad-prev h-btn"><</a>
+            <a href="javascript:;" class="ad-next h-btn">></a>
+
+        </div>
+        <ul class="sct-list ">
+            <li>
+                <a href="###"><img src="" alt=""></a>
+                <div class="pad5">
+                    <p><a  href="###"></a></p>
+                    <p class="ovfl">
+                        <em class="fl font-b font14 price-color"></em>
+                        <span class="fr color99"></span>
+                    </p>
+                </div>
+
+            </li>
+            <li>
+                <a href="###"><img src="" alt=""></a>
+                <div class="pad5">
+                    <p><a  href="###"></a></p>
+                    <p class="ovfl">
+                        <em class="fl font-b font14 price-color"></em>
+                        <span class="fr color99"></span>
+                    </p>
+                </div>
+
+            </li>
+            <li>
+                <a href="###"><img src="" alt=""></a>
+                <div class="pad5">
+                    <p><a  href="###"></a></p>
+                    <p class="ovfl">
+                        <em class="fl font-b font14 price-color"></em>
+                        <span class="fr color99"></span>
+                    </p>
+                </div>
+
+            </li>
+            <li>
+                <a href="###"><img src="" alt=""></a>
+                <div class="pad5">
+                    <p><a  href="###"></a></p>
+                    <p class="ovfl">
+                        <em class="fl font-b font14 price-color"></em>
+                        <span class="fr color99"></span>
+                    </p>
+                </div>
+
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="ad-wrap">
+            <ul class="ad-list">
+                <li><a><img src="images/banner1.jpg"></a></li>
+                <li><a><img src="images/banner2.jpg"></a></li>
+                <li><a><img src="images/banner1.jpg"></a></li>
+                <li><a><img src="images/banner2.jpg"></a></li>
+            </ul>
+            <ul class="ad-btn">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <a href="javascript:;" class="ad-prev h-btn"><</a>
+            <a href="javascript:;" class="ad-next h-btn">></a>
+
+        </div>
+        <ul class="sct-list ">
+            <li>
+                <a href="###"><img src="" alt=""></a>
+                <div class="pad5">
+                    <p><a  href="###"></a></p>
+                    <p class="ovfl">
+                        <em class="fl font-b font14 price-color"></em>
+                        <span class="fr color99"></span>
+                    </p>
+                </div>
+
+            </li>
+            <li>
+                <a href="###"><img src="" alt=""></a>
+                <div class="pad5">
+                    <p><a  href="###"></a></p>
+                    <p class="ovfl">
+                        <em class="fl font-b font14 price-color"></em>
+                        <span class="fr color99"></span>
+                    </p>
+                </div>
+
+            </li>
+            <li>
+                <a href="###"><img src="" alt=""></a>
+                <div class="pad5">
+                    <p><a  href="###"></a></p>
+                    <p class="ovfl">
+                        <em class="fl font-b font14 price-color"></em>
+                        <span class="fr color99"></span>
+                    </p>
+                </div>
+
+            </li>
+            <li>
+                <a href="###"><img src="" alt=""></a>
+                <div class="pad5">
+                    <p><a  href="###"></a></p>
+                    <p class="ovfl">
+                        <em class="fl font-b font14 price-color"></em>
+                        <span class="fr color99"></span>
+                    </p>
+                </div>
+
+            </li>
+
+        </ul>
+    </div>
+
+</div>
+
+
+<!--头部内容 public-->
+<div class="footer-top">
+    <div class="wid-1200 ">
+        <dl>
+            <dt>帮助中心</dt>
+            <dd></dd>
+        </dl>
+    </div>
+    <div class="font-center bodt-1 bodcolor-66 line_h40">底部</div>
+</div>
+
+<!--头部内容结束 public-->
+</body>
+</html>

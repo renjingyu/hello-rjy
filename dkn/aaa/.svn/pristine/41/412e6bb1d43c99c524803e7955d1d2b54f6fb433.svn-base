@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--公用的-->
+    <link href="images/music.ico" rel="shortcut icon" />
+    <link href="css/base.css" rel="stylesheet" />
+    <link href="css/public.css" rel="stylesheet" />
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/basefn.js"></script><!--紧挨着jq放-->
+
+
+    <script src="js/public.js"></script>
+
+    <!--私有的-->
+    <link href="css/cart.css" rel="stylesheet" />
+    <script src="js/cart.js"></script>
+</head>
+<body style="padding-bottom: 100px;">
+
+
+    <div class="wid-1200">
+        <!--标题-->
+        <div class="cart-tit">
+            <label class="choose-wrap">
+                <input class="ch-all" type="checkbox" />
+                <span>全选</span>
+            </label>
+
+            <span class="tit-name">商品</span>
+            <span class="tit-price">单价(元)</span>
+            <span class="tit-num"> 数量</span>
+            <span class="tit-sum">小计(元)</span>
+            <span class="tit-option">操作</span>
+        </div>
+        <!--商品-->
+
+        <ul class="cart-list">
+            <li class="cart-item">
+                <div class="item-choose">
+                    <input  class="ch-item" type="checkbox" />
+                </div>
+                <a class="item-pic" href="detail.html">
+                    <img src="images/product/pro%20(1).jpg">
+                </a>
+
+                <p class="item-name">
+                    <a href="detail.html">向着光亮那方·谁的青春不迷茫系列之三</a>
+                </p>
+                <p class="item-props">颜色：向着光亮那方</p>
+                <p class="item-price">100.00</p>
+                <div class="item-num">
+                    <div class="num-wrap ovfl">
+                        <a href="javascript:;" class="num-minus">-</a>
+                        <input type="text" value="10" class="num-text" />
+                        <a href="javascript:;" class="num-plus">+</a>
+                    </div>
+
+                </div>
+                <p class="item-sum">1000.00</p>
+                <div class="item-option">
+                    <p><a href="javascript:;" class="item-delete">删除</a></p>
+                </div>
+            </li>
+
+            <li class="cart-item">
+                <div class="item-choose">
+                    <input  class="ch-item" type="checkbox" />
+                </div>
+                <a class="item-pic" href="detail.html">
+                    <img src="images/product/pro%20(1).jpg">
+                </a>
+
+                <p class="item-name">
+                    <a href="detail.html">向着光亮那方·谁的青春不迷茫系列之三</a>
+                </p>
+                <p class="item-props">颜色：向着光亮那方</p>
+                <p class="item-price">100.00</p>
+                <div class="item-num">
+                    <div class="num-wrap ovfl">
+                        <a href="javascript:;" class="num-minus">-</a>
+                        <input type="text" class="num-text" value="10" />
+                        <a href="javascript:;" class="num-plus">+</a>
+                    </div>
+
+                </div>
+                <p class="item-sum">1000.00</p>
+                <div class="item-option">
+                    <p><a href="javascript:;" class="item-delete">删除</a></p>
+                </div>
+            </li>
+
+
+        </ul>
+
+
+        <!--底部的bar-->
+        <div id="cart-bar">
+            <div class="wid-1200">
+                <label class="choose-wrap fl magl-15">
+                    <input class="ch-all" type="checkbox" />
+                    <span>全选</span>
+                </label>
+                <a href="javascript:;" class="magl-15 fl choose-delete">删除选择商品</a>
+
+                <a href="javascript:;" class="ok fr">结算</a>
+                <em class="fr magr-20 all-sum">1000.00</em>
+                <span class="fr magr-20 all-num">10</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

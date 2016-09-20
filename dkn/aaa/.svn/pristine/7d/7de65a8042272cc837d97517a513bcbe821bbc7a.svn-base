@@ -1,0 +1,41 @@
+
+/*banner*/
+.banner-wrap { height: 380px; position: relative; overflow: hidden}
+.banner-list,.banner-list li {position: absolute;left: 0;top: 0; width: 1920px; height: 100%}
+.banner-list { left: 50%; margin-left: -960px; }
+.banner-list img {width: 1920px; height: 380px}
+.banner-btn { position: absolute; width: 100%; left: 0; bottom: 20px; text-align: center;}
+.banner-btn ul {display: inline-block; background-color: rgba(0,0,0,.5); border-radius: 15px; padding: 5px 10px;}
+.banner-btn li { display: inline-block; height: 20px;width: 20px; background-color: #fff; border-radius: 50%; cursor: pointer }
+.banner-btn .active { background-color: #aa2266}
+
+
+/*banner结束*/
+
+.main { min-height: 800px; margin: 20px auto}
+
+.section { border: 1px solid #ccc; padding: 10px; margin-top: 20px; background-color: #fff; height: 360px;}
+
+
+/*楼层广告轮播*/
+.ad-wrap {float: left; position: relative; width: 300px; height: 200px;overflow: hidden;}
+.ad-list { position: absolute; left:0; top: 0;width: 3000px; height: 200px;}
+.ad-list li { overflow: hidden;width: 300px; height: 200px; float: left}
+.ad-list img {position: relative; left: 50%; margin-left: -500px; width: 1000px; height: 200px;}
+.ad-btn {position: absolute; bottom: 0; left: 0; width: 100%; text-align: center}
+.ad-btn  li { display:inline-block; width: 12px; height: 12px; margin: 10px; border-radius: 50%; background-color: #fff; cursor: pointer}
+.ad-btn  .active { background-color: #e40}
+.ad-wrap .h-btn { position: absolute;
+    left:0; top: 50%; margin-top: -15px; height: 30px; line-height: 30px; width: 40px; text-align: center; background-color: rgba(0,0,0,.6); color: #fff; font-size: 18px; display: none}
+.ad-wrap .ad-next {left: auto; right: 0;}
+.ad-wrap:hover .h-btn { display: block;}
+/*楼层广告轮播结束*/
+
+/*楼层商品*/
+.sct-list { width: 840px; float: right; margin-right: 20px}
+.sct-list  li { width: 208px; margin-left: -1px; border: 1px solid #ccc; float: left; line-height: 2;}
+.sct-list  li img { width: 208px; height:208px}
+
+.sct-opt { padding: 10px 0; height: 30px; line-height: 30px;}
+.sct-opt li { float: right; margin-right: 30px; font-size: 14px; cursor: pointer}
+.sct-opt .active { color: #aa2266;font-weight: bold}

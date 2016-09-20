@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			console.log(window.location.search)
+			var str = window.location.search;
+			var arr = str.split("=");
+			$.ajax({
+				type:"get",
+				url:"js/product.json",
+				async:true,
+				success:function(data){
+					$.each(data, function(index,obj) {
+						if(obj["id"]==arr[1]){
+							$("body").append(obj["title"]);
+						}
+					});
+				}
+			});
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--公用的-->
+    <link href="images/music.ico" rel="shortcut icon" />
+    <link href="css/base.css" rel="stylesheet" />
+    <link href="css/public.css" rel="stylesheet" />
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/public.js"></script>
+
+    <!--私有的-->
+    <link href="css/detail.css" rel="stylesheet" />
+    <script src="js/detail.js"></script>
+</head>
+<body>
+    <div class="detail-top wid-1200 clear">
+        <div class="pic-detail fl">
+            <!--大图-->
+            <div class="big-pic">
+                <img src="images/product/pro%20(6).jpg">          <div class="move-box"></div>
+            </div>
+            <!--放大图-->
+            <div class="blowUp-pic">
+                <img src="images/product/pro%20(6).jpg">
+            </div>
+
+            <!--小图列表-->
+            <div class="list-pic">
+                <div class="scroll-wrap">
+                    <ul >
+                        <li><img src="images/product/pro%20(6).jpg"></li>
+                        <li><img src="images/product/pro%20(5).jpg"></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+       <!-- <div class="text-detail fl">
+
+        </div>-->
+    </div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+@import url("base.css");
+body{background: #efefef;}
+.cart_header{background: white;overflow: hidden;box-shadow: 0 3px 3px #eee;position: relative;z-index: 3;padding: 10px;}
+.cart_logo{float: left;}
+.cart_logo img{height: 44px;}
+.cart_help{float: right;text-align: center;}
+.cart_help p{float: left;border-right: 1px solid #E6E6E6;width: 145px;}
+.cart_help p i{display: block;}
+.cart_help ul{float: left;width: 133px;}
+.cart_help ul li{line-height: 20px;}
+
+.nav{background: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    height: 47px;line-height: 47px;}
+.nav ul {overflow: hidden;}
+.nav ul li{float: left;width: 30%;text-align: center;color: #c7c7c7;font-weight: 700;font-size: 1.3rem;}
+.nav ul li:nth-child(1){width: 10%;background: #ffea28;border-radius: 0 50px 50px 0;height: 46px;}
+.nav ul li:nth-child(1) i{margin-top: 8px;color: #333;}
+.nav ul li b{float: right;font-family: monospace;font-size: 50px;color: #ccc;}
+.nav ul li span{height: 20px;width: 20px;border: 1px solid #ccc; border-radius: 50%;display: inline-block;line-height: 20px;margin-right: 5px;}
+.nav ul li:nth-child(4) b{display: none;}
+
+.main{margin: 80px auto; width: 1210px;}
+.main h1{    font-size: 2.5rem;margin: 30px 0;}
+.main h1 span{    font-size: 1.7rem;}
+.main_left{}
+.main_left_top{
+	padding-bottom: 50px; border-bottom: 1px solid #ccc;
+}
+.cart-tit{background: #fff;
+	line-height: 38px;
+	color: #898989;
+	    border-bottom: 1px solid #e6e6e6;
+	    padding: 0 10px;
+}
+.cart-tit span{display: inline-block;width: 14%;}
+.cart-tit span.tit-name{width: 51%;}
+.cart-list{background: #fff;overflow: hidden;
+	box-shadow: 0 2px 3px #eee;}
+.main_left_box{
+	box-shadow: 0 0 3px #ccc;
+}
+.cart-list .cart-item{border-bottom:  1px solid #E6E6E6;overflow: hidden;padding: 30px 0;text-align: center;height: 180px;}
+.cart-list p,.cart-list div{float: left;height: 100%;}
+.cart-list a.item-pic{width: 22%;display: inline-block;float: left;text-align: center;color: #333;}
+.cart-list div.item-name{width: 25%;overflow: hidden;height: 120px;text-align: left;}
+.cart-list div.item-name a{display: inline-block;height: 100%;color: #333;}
+.cart-list div.item-name ol{width: 100%;float: left;}
+.cart-list div.item-name ol li:nth-child(1) b{
+	font-weight: 700;
+}
+.cart-list div.item-name ol li:nth-child(3){
+	margin-top: 10px;
+}
+.cart-list div.item-name ol li:nth-child(4){
+	margin-bottom: 10px;
+}
+.cart-list div.item-name ol li a{
+	color: #0081C2;
+	text-decoration: underline;
+}
+.cart-list p.item-props{width: 14%;line-height: 120px;font-weight: 700;}
+.cart-list p.item-price{width: 14%;    line-height: 120px;font-weight: 700;}
+.cart-list div.item-num{width: 14%;  line-height: 120px;padding-left: 14px;}
+.cart-list div.item-num a{width: 30px;height: 30px;border: #e6e6e6 solid 1px;display: inline-block;line-height: 30px;color: #333;text-shadow: 0 0 3px #eee;font-size: 2.6rem;}
+.cart-list div.item-num input{width: 30px;height: 30px;text-align: center;font-size: 1.6rem;margin-top: -10px;}
+.cart-list p.item-sum{width: 	13%;    line-height: 120px;font-weight: 700;}
+.cart-list div.item-option{width: 11%;    line-height: 120px;font-weight: 700;}
+.cart-list div.item-option a{border: 1px solid #E6E6E6;font-size: 1.8rem;width: 30px; height: 30px; text-align: center;line-height: 30px;color: #333;text-shadow: 0 0 3px #ccc;display: inline-block;}
+.item-pic img{width: 118px;height: 118px;}
+.main_left_bottom{
+	box-shadow: 0 2px 3px #ccc;
+	background: #fff;
+	margin-top: 50px;
+}
+.main_left_bottom h4{
+	padding: 20px;
+	font-size: 1.4rem;
+	border-bottom: 1px solid #ccc;
+	background: #fafafa;
+	font-weight: 700;
+	color: #000;
+}
+.main_left_bottom p{
+	padding: 50px 0;
+	text-align: center;
+	font-size: 1.7rem;
+	color: #000;
+}
+.main_right {}
+.main_right ul{
+	background: #fff;
+	box-shadow: 0 0 5px #ccc;
+}
+.main_right ul li{
+	line-height: 40px;
+	border-bottom: 1px solid #e6e6e6;
+	padding: 0 20px;
+	overflow: hidden;
+	font-size: 1.4rem;
+}
+.main_right ul li span{
+	float: right;
+	font-weight: bold;
+}
+.main_right ul li:nth-child(1){
+	background: #fafafa;
+	text-align: center;
+	font-size: 2rem;
+}
+.main_right ul li:nth-child(4){
+	background: #ffea28;
+}

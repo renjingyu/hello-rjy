@@ -1,0 +1,252 @@
+[
+  {
+    "cateId":"002",
+    "cateName":"美食",
+    "pId":"0020001",
+    "name":"游泳运动泳池拖鞋ALL拖鞋 NABAIJI POOL CLOGS",
+    "price":"100",
+    "oldPrice":"200",
+    "sellerNum":"1000",
+    "img":"images/product/pro01.jpg",
+    "num":"1000",
+    "des":"休闲或长期游泳的游泳者在泳池边穿着.",
+	"effect":"轻便,通风的拖鞋，保护您的双脚"
+  },
+
+  {
+    "cateId":"001",
+    "cateName":"运动",
+    "pId":"0020002",
+    "name":"户外山地运动可替换便携女式凉鞋鞋面 QUECHUA SWITCH50",
+    "price":200,
+    "oldPrice":220,
+    "des":"温暖天气里在平坦地面进行半日低地徒步旅行。偶尔穿着.",
+	"effect":"可调换式鞋面！！！ 你不必再为选择哪一种颜色烦恼了，因为你可以拥有两者！ 低价为您提供可调换式凉鞋鞋面。 用扣子或带子固定。",
+    "sellerNum":1233,
+    "num":222,
+    "img":"images/product/pro02.jpg"
+
+  },
+  {
+    "cateId":"001",
+    "cateName":"运动",
+    "pId":"0020003",
+    "name":"健身运动棉质吸汗快干女式袜子 DOMYOS BASIC SOCKS",
+    "price":200,
+    "oldPrice":220,
+    "des":"健身",
+	"effect":"舒适，可满足一切要求！ 这款矮邦袜可满足你健身运动时的一切要求，非常舒适。",
+    "sellerNum":1233,
+    "num":222,
+    "img":"images/product/pro03.jpg"
+
+  },
+  {
+    "cateId":"001",
+    "cateName":"运动",
+    "pId":"0020004",
+    "name":"登山徒步保暖男女 成人保暖手套 QUECHUA FORCLAZ 20",
+    "price":200,
+    "oldPrice":220,
+    "des":"登山时提供防寒保暖保护。",
+	"effect":"保暖透气的摇粒绒手套。推荐的使用条件：3°C 至 8°C",
+    "sellerNum":1233,
+    "num":222,
+    "img":"images/product/pro04.jpg"
+
+  },
+  {
+    "cateId":"001",
+    "cateName":"运动",
+    "pId":"0020005",
+    "name":"滑雪防寒保暖成人帽子 QUECHUA FIRST HEAT ADULT SKI HAT",
+    "price":200,
+    "oldPrice":220,
+    "des":"滑雪者想要一款能够保护他们的颈部，免受寒冷的产品。",
+	"effect":"摇粒绒编织，紧凑，保暖。",
+    "sellerNum":1233,
+    "num":222,
+    "img":"images/product/pro05.jpg"
+
+  },
+  {
+    "cateId":"001",
+    "cateName":"运动",
+    "pId":"0020006",
+    "name":"健身女式鸭舌帽 DOMYOS WOMEN'S FITNESS CAP",
+    "price":200,
+    "oldPrice":220,
+    "des":"健身",
+	"effect":"简单的圆帽！ 轻盈透气（60克），健身活动时戴着非常舒适。",
+    "sellerNum":1233,
+    "num":222,
+    "img":"images/product/pro06.jpg"
+
+  },{
+  "cateId":"001",
+  "cateName":"运动",
+  "pId":"0020007",
+  "name":"自行车运动舒适成人袜子 B'TWIN SOCKS 300",
+  "price":200,
+  "oldPrice":220,
+  "des":"偶尔进行自行车运动(骑行1小时)及城市骑行时穿着",
+  "effect":"各不相同，轻盈透气的骑行短袜。足中部弹性带提供良好的支撑效果",
+  "sellerNum":1233,
+  "num":222,
+  "img":"images/product/pro07.jpg"
+
+},
+  {
+    "cateId":"001",
+    "cateName":"运动",
+    "pId":"0020008",
+    "name":"冲浪运动抗盐 速干女士泳裙 TRIBORD BEACH APRON CN SAFI",
+    "price":200,
+    "oldPrice":220,
+    "des":"去海边水上运动或在沙滩漫步时休闲穿着",
+	"effect":"小围裙，时尚的热爱图案，在覆盖身体的同时增加女性柔美气质",
+    "sellerNum":1233,
+    "num":222,
+    "img":"images/product/pro08.jpg"
+
+  },
+  {
+    "cateId":"001",
+    "cateName":"运动",
+    "pId":"0020009",
+    "name":"健身运动纯棉舒适女式短袖T恤 DOMYOS Y/P SSTS JERSEY WOMAN",
+    "price":200,
+    "oldPrice":220,
+    "des":"低强度健身",
+	"effect":"最简单舒适款的纯棉T恤（针织145克） 。 宽松的剪裁和柔软的棉料确保完全的活动自如。",
+    "sellerNum":1233,
+    "num":222,
+    "img":"images/product/pro09.jpg"
+
+  },
+  {
+    "cateId":"001",
+    "cateName":"运动",
+    "pId":"0020010",
+    "name":"反光挂件-麋鹿",
+    "price":200,
+    "oldPrice":220,
+    "des":"夜间运动安全",
+	"effect":"特殊反光面料在暗处光照下发出白色亮光，保护您的安全",
+    "sellerNum":1233,
+    "num":222,
+    "img":"images/product/pro10.jpg"
+
+  },
+  {
+    "cateId":"001",
+    "cateName":"运动",
+    "pId":"0020012",
+    "name":"跑步运动吸汗透气便携跑步护腕 KALENJI TERRY WRIST WALLET",
+    "price":200,
+    "oldPrice":220,
+    "des":"方便训练或比赛时携带钥匙使用",
+	"effect":"适合携带钥匙以及用来擦汗!",
+    "sellerNum":1233,
+    "num":222,
+    "img":"images/product/pro11.jpg"
+
+  },
+  {
+    "cateId":"001",
+    "cateName":"运动",
+    "pId":"0020013",
+    "name":"健身运动棉质舒适透气女式运动短裤 DOMYOS BT SHORT TEAM SS15",
+    "price":200,
+    "oldPrice":220,
+    "des":"健身（塑形和肌肉力量训练）",
+	"effect":"磨毛针织短裤，网眼拼接面料和卷起的裤脚。",
+    "sellerNum":1233,
+    "num":222,
+    "img":"images/product/pro12.jpg"
+
+  },
+  {
+    "cateId":"001",
+    "cateName":"运动",
+    "pId":"0020014",
+    "name":"自行车运动休闲 骑行 保暖帽骑行服饰 B'TWIN 500 ADULT CITY CYCLING HAT",
+    "price":200,
+    "oldPrice":220,
+    "des":"进行城市骑行时保护自行车手抵御寒冷，可视性更强",
+	"effect":"成人规格骑行帽舒适，可拉伸，保暖耳朵白天或夜间在城镇中骑行中提供安全（双色调，其一为霓虹色）",
+    "sellerNum":1233,
+    "num":222,
+    "img":"images/product/pro13.jpg"
+
+  },
+  {
+    "cateId":"001",
+    "cateName":"运动",
+    "pId":"0020015",
+    "name":"自行车运动公路 山地 短指 透气 防滑 骑行手套骑行手套 B'TWIN CYCLING GLOVES 500",
+    "price":200,
+    "oldPrice":220,
+    "des":"适于在春夏季节定期骑行(山地或公路)",
+	"effect":"舒适，完美剪裁防止折叠，表面吸汗可擦拭额头，轻盈透气，即刻吸汗",
+    "sellerNum":1233,
+    "num":222,
+    "img":"images/product/pro14.jpg"
+
+  },{
+  "cateId":"001",
+  "cateName":"运动",
+  "pId":"0020016",
+  "name":"球拍类运动速干轻盈女POLO衫 ARTENGO POLO ESSENTIAL F",
+  "price":200,
+  "oldPrice":220,
+  "des":"温暖天气下进行球拍类运动(网球、羽毛球、乒乓球、板网球和壁球)的爱好者 。",
+  "effect":"本款经典运动Polo衫适合网球及羽毛球运动 您会爱上这轻盈透气的面料本品可穿于专业比赛，或仅作休闲服！",
+  "sellerNum":1233,
+  "num":222,
+  "img":"images/product/pro15.jpg"
+
+},
+  {
+    "cateId":"001",
+    "cateName":"运动",
+    "pId":"0020017",
+    "name":"冲浪运动抗盐 防滑女士沙滩夹脚拖鞋 TRIBORD TO 100 PRINT WOMEN'S JBAY FILP-FLOPS",
+    "price":200,
+    "oldPrice":220,
+    "des":"水上运动，适合在沙滩和路上穿着",
+	"effect":"时尚的夏款夹脚拖鞋. 印花由Hendaye的团队特别设计，搭配沙滩裤的系列.",
+    "sellerNum":1233,
+    "num":222,
+    "img":"images/product/pro16.jpg"
+
+  },
+  {
+    "cateId":"001",
+    "cateName":"运动",
+    "pId":"0020018",
+    "name":"辐条彩珠绿色",
+    "price":200,
+    "oldPrice":220,
+    "des":"安装在各类自行车上",
+	"effect":"嵌在自行车辐条上！",
+    "sellerNum":1233,
+    "num":222,
+    "img":"images/product/pro17.jpg"
+
+  },
+  {
+    "cateId":"001",
+    "cateName":"运动",
+    "pId":"0020019",
+    "name":"瓷瓶瓷瓶，京城瓷瓶",
+    "price":200,
+    "oldPrice":220,
+    "des":"瓷瓶瓷瓶，京城瓷瓶，不瓷不要钱",
+	"effect":"",
+    "sellerNum":1233,
+    "num":222,
+    "img":"images/product/pro18.jpg"
+
+  }
+]

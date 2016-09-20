@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/product.json" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<ul class="product clearfix">
+			<!--
+			<li>
+				<a href=""><img src="img/apple.jpg" title="aaaa"></a>
+				<h3><a href="" class="title">aaaa</a></h3>
+				<p class="price">￥6199</p>
+				<input type="button" value="加入购物车" class="btn">
+			</li>
+			<li>
+				<a href=""><img src="img/apple.jpg" title="aaaa"></a>
+				<h3><a href="" class="title">aaaa</a></h3>
+				<p class="price">￥6199</p>
+				<input type="button" value="加入购物车" class="btn">
+			</li>
+			-->
+		</ul>
+		<div id="shopping_cart">
+			<a href=""><span>0</span>购物车</a>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$.ajax({
+					type:"get",
+					url:"js/product.json",
+					async:true,
+					success:function(data){
+						$.each(data, function(index,obj) {
+							var html = "<li><a href='single.html?id="+obj["id"]+"'><img src='"+obj["imgres"]+"' title='"+obj["title"]+"'></a>";
+							html += "<h3><a href='single.html?id="+obj["id"]+"' class='title'>"+obj["title"]+"</a></h3>";
+							html += "<p class='price'>"+obj["price"]+"</p>";
+							html += "<input type='button' value='加入购物车' data-id='"+obj["id"]+"' class='btn'></li>"
+							$(".product").eq(0).append(html);	
+						});
+						var total = 0;
+							$(".btn").each(function(){
+								var num = $.cookie("id"+$(this).attr("data-id")+"num")||0;
+								$(this).bind("click",function(){
+									total++;
+									if($.cookie("id"+$(this).attr("data-id"))==null){
+										$.cookie("id"+$(this).attr("data-id"),$(this).attr("data-id"),{expires:7,path:'/'});
+										$.cookie("id"+$(this).attr("data-id")+"num",++num);
+									}else{
+										$.cookie("id"+$(this).attr("data-id")+"num",++num);
+									}
+									$.cookie("total",total);
+									$("#shopping_cart").find("span").text($.cookie("total"));	
+								})
+								console.log(document.cookie);
+							})
+							
+							total = parseInt($.cookie("total"))||total;
+							if(total){
+								$("#shopping_cart").find("span").text($.cookie("total"));	
+							}							
+					}
+				});
+			})
+		</script>
+	</body>
+</html>
